@@ -1,0 +1,112 @@
+* {
+    box-sizing:border-box
+    margin: 0;
+    padding: 0;
+}
+
+/*cabeçalho*/
+body > header {
+    background-color: #333333;
+    padding:0px 0;
+    color: #f5f6fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+/*MENU*/
+header li {
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+/*TAMANHO SEÇÕES*/
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+/*POSIÇÃO DOS ARTIGOS*/
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 300px;
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px;
+}
+
+section h2, 
+.articles article {
+    margin-bottom: 16px;
+}
+
+
+/*LER MAIS*/
+.articles article a {
+    background-color: red;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+/*TEXTOS*/
+.articles article h3 {
+    font-size: 24px;
+    color: #333333;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+section h2 {
+    font-size: 36px;
+    color: #333333;
+}
+
+.articles article p {
+    color: #333333;
+    text-align: justify;
+}
+
+.creation-date {
+    color: gray;
+    font-size: small;
+}
+
+/*COR SEÇÃO*/
+#economy,
+#entret {
+    background-color: rgba(59, 63, 59, 0.1);
+}
